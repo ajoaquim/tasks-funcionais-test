@@ -66,7 +66,7 @@ public class TaskTest {
 		WebElement mensagem = drive.findElement(By.id("message"));
 
 		//System.out.println(mensagem.getText());
-		Assert.assertEquals("Sucess!", mensagem.getText());
+		Assert.assertEquals("Success!", mensagem.getText());
 
 		drive.quit();
 
