@@ -33,7 +33,7 @@ public class TaskTest {
 		//WebDriver driver = new ChromeDriver(option);
 
 		//System.setProperty('WebDriver.chrome.driver', 'D:\\SeleniumSoftwaresReq\\chromedriver.exe');
-		WebDriver drive = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), cap);
+		WebDriver drive = new RemoteWebDriver(new URL("http://192.168.0.58:4444/wd/hub"), cap);
 
 		return drive;
 
